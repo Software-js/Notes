@@ -24,8 +24,8 @@
           <a class="navbar-brand" href="#">{{constants.title}}</a>
         </div>
         <div class="navbar-form navbar-right">
-          <button id="saveAll" type="submit" class="btn btn-info" data-ng-click="ajax.saveAll()">Save</button>
-          <button id="loadAll" type="submit" class="btn btn-info" data-ng-click="ajax.loadAll()">Load</button>
+          <button id="saveAll" type="submit" class="btn btn-info" data-ng-click="ajax.saveAll()" title="Save"></button>
+          <button id="loadAll" type="submit" class="btn btn-info" data-ng-click="ajax.loadAll()" title="Load"></button>
         </div>
         <ul class="nav nav-pills nav navbar-nav navbar-right">
           <li role="presentation" class="active"><a href="#" data-ng-click="filters.select('all')" class="tag_menu tag_default {{filters.getActiveForTag('all')}}">All</a></li>

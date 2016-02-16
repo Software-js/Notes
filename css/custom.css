@@ -102,6 +102,20 @@ body
 	background-color: #4FC3F7;
 	border-color: #03A9F4;
 }
+.btn-info#saveAll.btn-info#saveAll
+{
+	background: url(../img/ic_save_48px.svg);
+	border: none;
+	width: 48px;
+	height: 48px;
+}
+.btn-info#loadAll.btn-info#loadAll
+{
+	background: url(../img/ic_folder_48px.svg);
+	border: none;
+	width: 48px;
+	height: 48px;
+}
 .pills
 {
 	padding:5px;
